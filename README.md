@@ -1,2 +1,2 @@
 # airbnb-clone-react
-airbnb frontend clone with typescript v5 + react v18 + chakraui v2
+airbnb clone frontend with typescrpit, react and chakraui
