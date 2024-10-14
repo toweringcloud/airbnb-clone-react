@@ -58,9 +58,10 @@ export default function Home() {
 					<RoomSkeleton />
 				</>
 			) : null}
-			{data?.map((room) => (
+			{data?.map((room: IRoom) => (
 				<Room
 					key={room.pk}
+					pk={room.pk}
 					imageUrl={room.photos[0]?.file}
 					name={room.name}
 					rating={room.rating}
